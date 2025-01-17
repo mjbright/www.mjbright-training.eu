@@ -177,7 +177,8 @@ params:
     # End user relevant links. These will show up on left side of footer and in the community page if you have one.
     user:
     - name: User mailing list
-      url: https://example.org/mail
+      #url: https://example.org/mail
+      url: mailto:training@mjbright.net
       icon: fa fa-envelope
       desc: Discussion and help from your fellow users
       #- name: Twitter
@@ -190,14 +191,18 @@ params:
       #  desc: Practical questions and curated answers
     # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
     developer:
+      - name: LinkedIn
+        url: https://linkedin.com/in/mjbright/
+        icon: fab fa-linkedin
+        desc: Development takes place here!
       - name: GitHub
-        url: https://github.com/mjbright/web-site
+        url: https://github.com/mjbright/
         icon: fab fa-github
         desc: Development takes place here!
           #- name: Slack
           #url: https://example.org/slack
           #icon: fab fa-slack
-        d#esc: Chat with other project developers
+       #desc: Chat with other project developers
           #- name: Developer mailing list
           #url: https://example.org/mail
           #icon: fa fa-envelope
