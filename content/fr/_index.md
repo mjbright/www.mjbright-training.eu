@@ -1,17 +1,23 @@
 ---
-title: Goldydocs
+title: "@mjbright Consulting: Cloud Native Training"
 ---
 
 {{< blocks/cover title="Pour vos formations \"Cloud Natif\" ..." image_anchor="top" height="full" >}}
-<a class="btn btn-lg btn-primary me-3 mb-4" href="/docs/">
+<a class="btn btn-lg btn-primary me-3 mb-4" href="/trainings/">
   Learn More <i class="fas fa-arrow-alt-circle-right ms-2"></i>
 </a>
+
+<!--
 <a class="btn btn-lg btn-secondary me-3 mb-4" href="https://github.com/google/docsy-example">
   Download <i class="fab fa-github ms-2 "></i>
 </a>
+-->
+
 <p class="lead mt-5">
 Kubernetes, Docker, Terraform, OpenTofu, Ansible, Kyverno, Open Policy Agent
 </p>
+
+<!--
 {{< blocks/link-down color="info" >}}
 {{< /blocks/cover >}}
 
@@ -77,3 +83,5 @@ For announcement of latest features etc.
 This is the another section
 {.h1 .text-center}
 {{% /blocks/section %}}
+
+-->
