@@ -1,6 +1,6 @@
 ---
 title: "CV [Résumé]"
-menu: {main: {weight: 30}}
+menu: {main: {weight: 80}}
 ---
 
 {{< blocks/cover title="Curriculum Vitae" image_anchor="top" height="full" >}}

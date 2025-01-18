@@ -1,6 +1,6 @@
 ---
 title: Formations
-menu: {main: {weight: 30}}
+menu: {main: {weight: 10}}
 ---
 
 This is the **trainings** section.
