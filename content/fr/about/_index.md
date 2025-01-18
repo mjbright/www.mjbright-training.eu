@@ -1,19 +1,20 @@
 ---
-title: About @mjbright Consulting
-linkTitle: About
-menu: {main: {weight: 10}}
+title: Apropos @mjbright Consulting
+linkTitle: Apropos
+menu: {main: {weight: 100}}
 ---
 
-{{% blocks/cover title="About @mjbright Consulting" image_anchor="bottom" height="auto" %}}
+{{% blocks/cover title="Apropos @mjbright Consulting" image_anchor="bottom" height="auto" %}}
 
-Cloud Native Training: Kubernetes, Docker, Terraform, OpenTofu, Ansible, Kyverno, Open Policy Agent
+Formations "Cloud Native": Kubernetes, Docker, Terraform, OpenTofu, Ansible, Kyverno, Open Policy Agent
 {.mt-5}
 
 {{% /blocks/cover %}}
 
 {{% blocks/lead %}}
 
-@mjbright Consulting is a training company based in the South of France, providing "Cloud Native" training worldwide.
+@mjbright Consulting est une société (S.A.S.U) de formation basée en France, livrant des formations aux entreprises a travers le monde.
+
 
 {{% /blocks/lead %}}
 
@@ -33,9 +34,6 @@ Based in the Pyrénées-Orientales (Perpignan) just 2 hours from Toulouse & Barc
 
 {{< imgproc Perpignan1 Fill "600x600" >}} {{< /imgproc >}} {{< imgproc Perpignan2 Fill "600x600" >}} {{< /imgproc >}}
 
-
-
-{.text-center}
 
 {{% /blocks/section %}}
 
