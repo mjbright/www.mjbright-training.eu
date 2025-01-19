@@ -17,7 +17,7 @@ All trainings can be adapted to specific needs in terms of:
 
 {{% /pageinfo %}}
 
-<a class="btn btn-lg btn-secondary me-3 mb-4" href="cv.pdf">
+<a class="btn btn-lg btn-secondary me-3 mb-4" href="Catalog.pdf">
   [English] Catalog Download <i class="fa-regular fa-newspaper"></i>
 </a>
 
