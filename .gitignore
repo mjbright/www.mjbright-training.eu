@@ -3,5 +3,5 @@ resources/
 node_modules/
 package-lock.json
 .hugo_build.lock
-# Ignore processed training content (beccause auto-generated from Catalog.rtf)
-TR_*/
+# BAD IDEA ! Ignore processed training content (beccause auto-generated from Catalog.rtf)
+# TR_*/
