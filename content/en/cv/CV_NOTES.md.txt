@@ -1,0 +1,14 @@
+
+- cd ~/z/www/cv.html
+
+- Update cv.html
+- Update cv.fr.html
+
+- Take wiindow shot of CV using Mononap -> cv.png, cv.fr.png
+- Print CV from Chrome -> cv.pdf, cv.fr.pdf
+
+Copy cv*.png cv*.pdf to en/cv/ and fr/cv/ folders
+
+(Later: CV in GDrive?)
+
+
