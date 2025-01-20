@@ -6,7 +6,7 @@ menu: {main: {weight: 10}}
 
 {{% pageinfo %}}
 ### Adaptation
-All trainings can be adapted to specific needs in terms of:
+All trainings can be delivered in English or in French and adapted to specific needs in terms of:
 - subjects covered, content
 - duration, time zone (max 8 hours duration/day between 7h to 23h59 CET for virtual trainings)
 - delivery as half or full days
@@ -31,11 +31,5 @@ All trainings can be adapted to specific needs in terms of:
 
 # Terraform (/OpenTofu) Trainings
 - <a href="tr_tf-000-en_terraformintroduction(core)/" > TF-000-EN Terraform Introduction (CORE) </a>
-- <a href="tr_tf-001-en_terraformintroduction(aws)/" > TF-001-EN Terraform Introduction (AWS) </a>
-- <a href="tr_tf-002-en_terraformintroductionterraform(azure)/" > TF-002-EN Terraform Introduction Terraform (Azure) </a>
-- <a href="tr_tf-003-en_terraformintroductionterraform(googlecloud)/" > TF-003-EN Terraform Introduction Terraform (Google Cloud) </a>
-- <a href="tr_tf-004-en_terraformintroductionterraform(oraclecloud)/" > TF-004-EN Terraform Introduction Terraform (Oracle Cloud) </a>
-- <a href="tr_tf-005-en_terraformintroductionterraform(openstack)/" > TF-005-EN Terraform Introduction Terraform (OpenStack) </a>
-- <a href="tr_tf-006-en_terraformintroductionterraform(proxmox)|/" > TF-006-EN Terraform Introduction Terraform (Proxmox)| </a>
 - <a href="tr_tf-001-en_terraformintroduction(aws)/" > TF-001-EN Terraform Introduction (AWS) </a>
 - <a href="tr_tf-002-en_terraformintroduction(azure)/" > TF-002-EN Terraform Introduction (Azure) </a>

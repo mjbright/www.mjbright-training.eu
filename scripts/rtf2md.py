@@ -135,6 +135,7 @@ course_dirs = []
 course_keys = []
 course_titles = []
 
+# START DOCUMENT:
 for line in lines:
     n += 1
     P = ''
@@ -143,6 +144,7 @@ for line in lines:
     #print(type(line))
     #print(dir(line))
 
+    # START ADAPTATION SECTION:
     if not IN_ADAPTATION_SECTION and line == 'Adaptation':
         IN_ADAPTATION_SECTION=True
         a_line = 0
@@ -173,6 +175,7 @@ for line in lines:
             #pr_line(P, f'{a_line}: - {line}\n')
         continue
 
+    # START TRAININGS SECTION:
     if line == 'Trainings' or line == 'Formations':
         IN_ADAPTATION_SECTION=False
         IN_TRAININGS_SECTION=True
@@ -182,6 +185,9 @@ for line in lines:
 
     # DETECT NEW TRAINING:
     if line.startswith('['):
+        print(f'LINE={line}')
+        print(f'IN_ADAPTATION_SECTION={IN_ADAPTATION_SECTION} IN_TRAININGS_SECTION={ IN_TRAININGS_SECTION}')
+        input()
         if CURRENT_TRAINING_TITLE != '':
             # SAVE current training
             if not os.path.exists( CURRENT_TRAINING_DIR):

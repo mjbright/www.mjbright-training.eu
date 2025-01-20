@@ -5,10 +5,6 @@ weight: 1020
 # CKA exam preparation
 **Duration: 1 day**
 
-
-
-# Objectives
-
 The objective of this single day training is to prepare to take the Linux Foundation “CKA - Certified Kubernetes Administrator” exam.
 Participants will be challenged with various exam-like tasks to perform - see below for more details.
 The training consists of about 90% hands-on labs.

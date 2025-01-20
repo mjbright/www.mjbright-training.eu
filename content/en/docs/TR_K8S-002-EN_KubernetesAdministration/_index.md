@@ -5,10 +5,6 @@ weight: 1002
 # Kubernetes Administration
 **Duration: 4 days**
 
-
-
-# Objectives
-
 The objective of the training is to acquire Kubernetes Administration basics:
   - Learn about container orchestration
   - Master the installation, configuration of a Kubernetes platform
@@ -52,9 +48,7 @@ To take full advantage of this training, participants:
 
 If lacking command-line skills it is advised to first follow the training “LIN-001-EN - Introduction to Linux - command-line / shell” or equivalent.
 
-
-# Evaluation
-
+o
 At the beginning of the training we will verify the domain experience, if any, and any expectations of each participant.
 An accompaniment can be proposed at extra cost after the formation.
 

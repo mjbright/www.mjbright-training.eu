@@ -5,10 +5,6 @@ weight: 1021
 # CKAD exam preparation
 **Duration: 1 day**
 
-
-
-# Objectives
-
 The objective of this single day training is to prepare to take the Linux Foundation “CKAD - Certified Kubernetes Application Developer” exam.
 Participants should already have a first experience with the theory and practice of developing for  Kubernetes - having followed the “K8S-003-EN Development with Kubernetes” training for example or équivalent.
 Participants will be challenged with various exam-like tasks to perform - see below for more details.

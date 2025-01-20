@@ -5,10 +5,6 @@ weight: 1003
 # Kubernetes Application Development
 **Duration: 3 days**
 
-
-
-# Objectives
-
 The objective of the training is to acquire basic skills of Application Development for Kubernetes:
   - Learn about container orchestration
   - Master the creation and hosting of application container images

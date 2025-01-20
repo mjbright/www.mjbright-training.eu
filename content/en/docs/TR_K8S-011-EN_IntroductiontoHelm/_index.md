@@ -5,10 +5,6 @@ weight: 1011
 # Introduction to Helm
 **Duration: 1 day**
 
-
-
-# Objectives
-
 The objective of the training is to acquire basic skills of using Helm to create and install application Charts for Kubernetes.  The principal objectives are :
   - Faciliter application life-cycle management on Kubernetes
   - Customize applications at installation time
@@ -48,6 +44,7 @@ An accompaniment can be proposed at extra cost after the formation.
 Proposed as a single day training, this may be extended to 2 days to going into more depth and with more time to complete the hands-on labs and thus better assimilate the concepts & practical skills.
 
 Working from concrete examples, the following aspects will be covered
+
 Introduction to Helm & Concepts:
   - Introduction to Helm : What is it, why do we need it ?
   - Comparison of Helm Charts with alternatives (k8s yaml, kustomize)

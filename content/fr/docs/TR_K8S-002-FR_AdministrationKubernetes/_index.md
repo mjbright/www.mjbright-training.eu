@@ -15,7 +15,8 @@ L’objectif de cette formation est d’acquérir les bases sur l’administrati
   - Connaître les principaux types d’objets gérés par Kubernetes
   - Comprendre comment déployer sur Kubernetes
   - Savoir déboguer et observer les applications ainsi que le cluster Kubernetes même
-  - La formation serait constituée d'environ 50% théorie et 50% travaux pratiques.
+
+La formation serait constituée d'environ 50% théorie et 50% travaux pratiques.
 
 **Note:** Bien que la formation peut-etre une bonne préparation pour l’examen CKA, elle peut être associée a la formation “K8S-004-FR Preparation a l’examen CKA”
 C’est une journée dédiée aux compétences nécessaires pour réussir la certification.
