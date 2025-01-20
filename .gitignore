@@ -5,3 +5,6 @@ package-lock.json
 .hugo_build.lock
 **/unarchived/**
 unarchived/**
+unused/**
+unused/*
+unused/
