@@ -21,16 +21,6 @@ All trainings can be adapted to specific needs in terms of:
   [English] Catalog Download <i class="fa-regular fa-newspaper"></i>
 </a>
 
-It has several categories:
-- Containers
-  - Kubernetes
-  - Docker
-- Infrastructure as Code
-  - Terraform
-  - Ansible [*Configuration Management*]
-- Policy Management
-  - Kyverno
-  - OPA/Rego [*Open Policy Agent*]
 
 # Kubernetes Trainings
 - <a href="tr_k8s-002-en_kubernetesadministration/" > K8S-002-EN Kubernetes Administration </a>

@@ -65,7 +65,7 @@ while a < len(sys.argv):
         a += 1
         continue
 
-    CATALOG_FILE == sys.argv[a]
+    CATALOG_FILE = sys.argv[a]
     a += 1
 
 # -- Main: -------------------------------------------------------------------
@@ -78,6 +78,11 @@ if  '/fr' in cwd:
     ENGLISH = False
 #if 'english' in CATALOG_FILE.lower():
 #if 'french' in CATALOG_FILE.lower():
+
+if ENGLISH:
+    print("Running in ENGLISH mode")
+else:
+    print("Running in FRENCH mode")
 
 with open(CATALOG_FILE) as infile:
     content = infile.read()
@@ -105,6 +110,9 @@ __PAGE_INFO__
   [English] Catalog Download <i class="fa-regular fa-newspaper"></i>
 </a>
 
+'''
+
+IGNORE='''
 It has several categories:
 - Containers
   - Kubernetes
@@ -145,7 +153,7 @@ for line in lines:
     if IN_ADAPTATION_SECTION:
         a_line += 1
 
-        if line == 'Legend':
+        if line == 'Legend' or line == 'Legende':
             IN_ADAPTATION_SECTION=False
             #PAGE_INFO = ''
             PAGE_INFO = CURRENT_TRAINING_TEXT
@@ -165,7 +173,7 @@ for line in lines:
             #pr_line(P, f'{a_line}: - {line}\n')
         continue
 
-    if line == 'Trainings':
+    if line == 'Trainings' or line == 'Formations':
         IN_ADAPTATION_SECTION=False
         IN_TRAININGS_SECTION=True
 
@@ -185,8 +193,10 @@ for line in lines:
         if pos_closeBracket == -1: die("Expected to find ']' in line {line}")
         course_key=line[1+pos_closeBracket:].strip()
         course_duration=line[1:pos_closeBracket]
-        if not course_duration.endswith('d'):
-            die(f"Bad course duration: {course_duration}")
+        if ENGLISH:
+            if not course_duration.endswith('d'): die(f"[EN] Bad course duration: {course_duration}")
+        else:
+            if not course_duration.endswith('j'): die(f"[FR] Bad course duration: {course_duration}")
 
         course_duration=f'{ course_duration[:-1] }'
         if ENGLISH:
@@ -258,13 +268,18 @@ for line in lines:
         continue
 
     line = line.rstrip()
-    header2s= [ 'Objective', 'Objectives', 'Target Audience', 'Training Outcomes', 'Pre-requisites', 'Evaluation', 'Programme' ]
+    header2s= [
+            'Objective', 'Objectives', 'Objectifs',
+            'Target Audience', 'Training Outcomes',
+            'Pre-requisites', 'Public concerné et pré-requis',
+            'Evaluation', 'Programme'
+            ]
 
     if line.startswith("Note:"): line=f'**Note:**{line[5:]}'
 
     # Careful to keep ':' at end of line:
     # Also inset line-feed before Day (for Day 1):
-    if line.startswith("Day "):
+    if line.startswith("Day ") or line.startswith("Jour "):
         line=f'\n**{line[:-1]}**:'
         LIST_LEVEL = 0 # Hack ?
         #LIST_LEVEL = 1 # Hack ?
@@ -314,7 +329,7 @@ for course_group in ['K8S', 'TF']:
         #course_in_a_group=False
         #print(f'{course_group} - {course_key} {course_title}\n')
         if course_group in course_key:
-            line=f'- <a href="{course_dir}/" > {course_key} {course_title} </a>'
+            line=f'- <a href="{course_dir.lower()}/" > {course_key} {course_title} </a>'
             print(line)
             TRAINING_INDEX_TEXT_EN +=  line + '\n'
 
