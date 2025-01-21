@@ -13,21 +13,59 @@ resources:
 ---
 
 <!-- >{{< imgproc LOGO Fill "600x60" >}} {{< /imgproc >}}  -->
+{{< imgproc SING0019_Canigou.jpg Fill "1200x200" >}} {{< /imgproc >}}
 
-## Looking back on 2024
+## .. no more website outsourcing
+
+This year's newsletter is a bit late - having abandoned my website provider on 1st January it was time to go it alone.
+
+So it's back to the joys of website production - actually, I'm really pleased to be able to be in control again.
+
+The website is now online and
+- this newsletter is online
+  - https://www.mjbright-training.eu/blog/2025/01/17/2025-newsletter/.
+- [work in progress] Training Catalog is online
+  - https://www.mjbright-training.eu/docs/
+
+
+## 2024: Looking back
 
 Continuing our mission to provide rich training experiences to enterprises, upskilling employees on
-Cloud Native technologies, we had a goal to diversify (no not that!) by covering more subjects and working with more partners.
+Cloud Native technologies, we had a goal to propose more course subjects and work with more partners.
 
-This was achieved, despite ongoing work-*, as we delivered a total of **27 trainings / 6800 student hours** covering
+### 2024 Training Deliveries
+
+We delivered a total of **27 trainings / 6800 student hours** covering
 - Kubernetes (Admin, Developer, CKAD exam preparation, Advanced)
 - Terraform (Intro & Advanced)
 - Packer-Terraform-Vault (partner materials)
 - Ansible
 
-* - June 2024 through to January 2025 saw significant changes to the premises, aka "house".
+### On-premise 😲
 
-2024 Events Participation
+This was achieved, despite ongoing "*premises work*" -**\***
+
+**\*** June 2024 through to January 2025 saw *significant* changes to the premises, aka *"house"*. Living in a house where 90% of it is renovated is interesting.  Almost finished ...
+
+{{< cardpane >}}
+{{< card header="" title="(Office) from ..." footer="" subtitle="" >}}
+{{< imgproc BUREAU_before.jpg Fill "500x500" >}} {{< /imgproc >}}
+{{< /card >}}
+{{< card header="" title="to ... " footer="" subtitle="" >}}
+{{< imgproc BUREAU_after.jpg Fill "500x500" >}} {{< /imgproc >}}
+{{< /card >}}
+{{< /cardpane >}}
+
+{{< cardpane >}}
+{{< card header="" title="You can't make an omelette without breaking eggs !!" footer="" subtitle="" >}}
+{{< imgproc DURING.png Fill "2040x1536" >}} {{< /imgproc >}}
+{{< /card >}}
+{{< /cardpane >}}
+
+<!-- on ne saurait faire d’omelette sans casser des œufs ,   https://en.wiktionary.org/wiki/you_can%27t_make_an_omelette_without_breaking_eggs -->
+
+
+### 2024 Events Participation
 
 - Learning Technologies, Paris
 - MWC: Mobile World Congress, Barcelona
@@ -37,21 +75,25 @@ This was achieved, despite ongoing work-*, as we delivered a total of **27 train
 - KubeConEU, Paris
 - ITGilde IoT Workshop, Amstelveen
 
-## 2025 Public Virtual Training Schedule
+Would I pick a favourite ? 
 
-Stay tuned for additional dates coming your way!
+That's difficult, but maybe **rejekts.io**, https://cloud-native.rejekts.io/ - the *"b-side"* of KubeConEU
+ - for the technical "Kube" content, and the community.
 
-**Guaranteed to Run (Contact for availability):**
+## 2025
 
-**Scheduled:**
+### 2025 Public Virtual Training Schedule
 
-<!--
+Most trainings are delivered as private trainings through partners.
 
+But some trainings are delivered directly, or through partners, as public trainings.
+
+**Note:** Although trainings are generally delivered as consecutive full days, we're perfectly open to half-day trainings as consecutive or none-consecutive days.
 
 **Guaranteed to Run (Contact for availability):**
 
 ```
--   29th Jan to 1st Feb:
+-   10th to 13th Mar
     Course: Kubernetes Administrator
     Duration: 4 days
     Language: English
@@ -60,12 +102,14 @@ Stay tuned for additional dates coming your way!
 **Scheduled:**
 
 ```
--   25th Mar to 27th Mar:
+-   24th to 26th Mar
     Course: Kubernetes Developer
     Duration: 3 days
     Language: English
 ```
--->
+
+
+Stay tuned for additional dates coming your way!
 
 Explore the future of learning with @mjbright Consulting.
 
@@ -73,7 +117,21 @@ Secure your spot now and enhance your skills in the dynamic world of Kubernetes.
 
 *#VirtualTraining #Kubernetes #ContinuousLearning*
 
-## Plans for 2025
+### Plans for 2025
+
+{{< imgproc IN_PROGRESS.jpg Fill "800x400" >}} {{< /imgproc >}}
+
+{{< cardpane >}}
+{{< card header="" title="More Kube ..." footer="" subtitle="" >}}
+{{< imgproc Kubernetes Fill "400x400" >}} {{< /imgproc >}}
+{{< /card >}}
+{{< card header="" title="More TF/OTF ..." footer="" subtitle="" >}}
+{{< imgproc Terraform Fill "400x400" >}} {{< /imgproc >}}
+{{< /card >}}
+{{< card header="" title="More Ansible ..." footer="" subtitle="" >}}
+{{< imgproc Ansible Fill "1200x400" >}} {{< /imgproc >}}
+{{< /card >}}
+{{< /cardpane >}}
 
 In 2025 we will consolidate the successes of 2024
 - **Security Learning Path** working with new partners in the area of **security** 
@@ -97,11 +155,7 @@ Anticipate New Horizons in Learning with Training Courses, Learning Paths and ne
 
 Tailored to your requirements
 
-## What are your training needs ?
-
-Training Descriptions on https://www.mjbright-training.eu
-
-## 2025 Q1 Event Participation
+### 2025 Q1 Event Participation
 
 Stepping into 2025, we remain at the forefront of cutting-edge technologies such as AI in Education, Kubernetes, and WebAssembly.
 
@@ -119,5 +173,11 @@ Entering 2025, we are committed to providing you with unparalleled insights, exp
 Keep an eye out for us at events, and get ready to embark on a learning journey that transcends boundaries!
 
 *#TechEvents #TrainingInnovation #2025Journey*
+
+## What are your training needs ?
+
+Visit our training catalog at https://www.mjbright-training.eu/docs/
+
+Let us know what related trainings you need ...
 
 
