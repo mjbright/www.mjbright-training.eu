@@ -31,9 +31,14 @@ Based in the Pyrénées-Orientales (Perpignan) just 2 hours from Toulouse & Barc
 
 # ... nearby Barcelona, Toulouse, Marseille ...
 
-{{< imgproc Perpignan1 Fill "600x600" >}} {{< /imgproc >}} {{< imgproc Perpignan2 Fill "600x600" >}} {{< /imgproc >}}
-
-
+{{< cardpane >}}
+{{< card header="" title="" footer="" subtitle="" >}}
+{{< imgproc Perpignan1 Fill "400x400" >}} {{< /imgproc >}}
+{{< /card >}}
+{{< card header="" title="" footer="" subtitle="" >}}
+{{< imgproc Perpignan2 Fill "400x400" >}} {{< /imgproc >}}
+{{< /card >}}
+{{< /cardpane >}}
 
 {.text-center}
 
