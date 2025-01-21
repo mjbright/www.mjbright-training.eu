@@ -1,0 +1,47 @@
+---
+title: TEST @mjbright Consulting
+linkTitle: TEST-Page
+menu: {main: {weight: 100}}
+---
+
+<br/>
+<br/>
+<br/>
+<br/>
+<h1> Testing docsy theme colors (based on BootStrap) ... </h1>
+
+<!-- colors taken from https://getbootstrap.com/docs/5.0/utilities/colors/ -->
+
+{{% pageinfo color="primary" %}} color=primary {{% /pageinfo %}}
+{{% pageinfo color="secondary" %}} color=secondary {{% /pageinfo %}}
+{{% pageinfo color="success" %}} color=success {{% /pageinfo %}}
+{{% pageinfo color="danger" %}} color=danger {{% /pageinfo %}}
+{{% pageinfo color="warning" %}} color=warning {{% /pageinfo %}}
+{{% pageinfo color="info" %}} color=info {{% /pageinfo %}}
+
+{{% pageinfo color="light" %}} color=light {{% /pageinfo %}}
+{{% pageinfo color="white" %}} color=white {{% /pageinfo %}}
+{{% pageinfo color="dark" %}} color=dark {{% /pageinfo %}}
+
+<!-- useless:
+{{% pageinfo color="muted" %}} color=muted {{% /pageinfo %}}
+{{% pageinfo color="body" %}} color=body {{% /pageinfo %}}
+{{% pageinfo color="black-50" %}} color=black-50 {{% /pageinfo %}}
+{{% pageinfo color="white-50" %}} color=white-50 {{% /pageinfo %}}
+-->
+
+<!--
+    pageinfo color="gray-600" %}} color=gray-600 /pageinfo
+    pageinfo color="$gray-600" %}} color=$gray-600 /pageinfo
+-->
+
+<!-- useless:
+{{% pageinfo color="myblue" %}} color=myblue {{% /pageinfo %}}
+{{% pageinfo color="myred" %}} color=myred {{% /pageinfo %}}
+{{% pageinfo color="mygreen" %}} color=mygreen {{% /pageinfo %}}
+{{% pageinfo color="blue" %}} color=blue {{% /pageinfo %}}
+{{% pageinfo color="$blue" %}} color=$blue {{% /pageinfo %}}
+{{% pageinfo color="#0d6efd" %}} color=#0d6efd {{% /pageinfo %}}
+-->
+
+

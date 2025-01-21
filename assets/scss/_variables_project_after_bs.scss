@@ -1,0 +1,13 @@
+
+
+/* Why not working ?? */
+/* Based on info here: https://www.docsy.dev/docs/adding-content/lookandfeel/ */
+
+$custom-colors: (
+  'myblue':  #0000ff,
+  'myred':   #ff0000,
+  'mygreen': #00ff00,
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
