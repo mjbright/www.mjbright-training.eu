@@ -11,29 +11,62 @@ Formations "Cloud Native": Kubernetes, Docker, Terraform, OpenTofu, Ansible, Kyv
 
 {{% /blocks/cover %}}
 
+
+
 {{% blocks/lead %}}
+@mjbright Consulting est une société (S.A.S.U) de formation basée en France
 
-@mjbright Consulting est une société (S.A.S.U) de formation basée en France, livrant des formations aux entreprises a travers le monde.
-
-
+Nous livrons des formations aux entreprises à travers le monde.
 {{% /blocks/lead %}}
 
 {{% blocks/section %}}
 
-# Based in the South of France
+<font size=+2>
+Nous sommes spécialisés dans les services de formation et de conseil en technologies émergentes du Cloud et de l'informatique pour les entreprises.
 
-Based in the Pyrénées-Orientales (Perpignan) just 2 hours from Toulouse & Barcelona and with good air and rail links to Paris
+Notre attention actuelle est portée sur
+- Technologies de conteneurs : *Kubernetes* et Docker
+- Infrastructure as Code : Terraform et Ansible
+- Gestion des politiques (Kyverno, OPA)
+</font>
+{{% /blocks/section %}}
 
-{.text-center}
+{{% blocks/section %}}
+
+## Contact
+
+<font size=+2>
+Contactez-nous à sales@mjbright.net pour obtenir des devis de formation, que ce soit
+- formation en classe sur site
+- dans les locaux proche de Perpignan
+- classe virtuelle: consecutive/non-consecutive journées complètes ou à la demi-journée
+</font>
 
 {{% /blocks/section %}}
 
 {{% blocks/section %}}
 
-# ... nearby Barcelona, Toulouse, Marseille ...
+# Basé dans le Sud de la France
 
-{{< imgproc Perpignan1 Fill "600x600" >}} {{< /imgproc >}} {{< imgproc Perpignan2 Fill "600x600" >}} {{< /imgproc >}}
+<font size=+2>
+Basé dans les Pyrénées-Orientales (Perpignan) à 2 heures de Toulouse & Barcelona avec de bonnes liaisons aériennes et ferroviaires vers Paris
+<br/>
+<br/>
+<br/>
+</font>
 
+{.text-center}
+
+# ... avec accés facile à Barcelona, Toulouse, Marseille ...
+
+{{< cardpane >}}
+{{< card header="" title="" footer="" subtitle="" >}}
+{{< imgproc Perpignan1 Fill "400x400" >}} {{< /imgproc >}}
+{{< /card >}}
+{{< card header="" title="" footer="" subtitle="" >}}
+{{< imgproc Perpignan2 Fill "400x400" >}} {{< /imgproc >}}
+{{< /card >}}
+{{< /cardpane >}}
 
 {{% /blocks/section %}}
 

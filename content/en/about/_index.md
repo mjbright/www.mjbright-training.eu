@@ -13,23 +13,51 @@ Cloud Native Training: Kubernetes, Docker, Terraform, OpenTofu, Ansible, Kyverno
 
 {{% blocks/lead %}}
 
-@mjbright Consulting is a training company based in the South of France, providing "Cloud Native" training worldwide.
+@mjbright Consulting is a training company based in the South of France
+
+We deliver "Cloud Native" training to clients worldwide.
 
 {{% /blocks/lead %}}
 
 {{% blocks/section %}}
 
-# Based in the South of France
+<font size=+2>
+We specialize in training and consulting services in emerging Cloud & IT technologies to enterprises.
 
-Based in the Pyrénées-Orientales (Perpignan) just 2 hours from Toulouse & Barcelona and with good air and rail links to Paris
-
-{.text-center}
+Our current focus is on
+- Container Technologies: *Kubernetes* & Docker
+- Infrastructure as Code: Terraform & Ansible
+- Policy Management (Kyverno, OPA)
+</font>
 
 {{% /blocks/section %}}
 
 {{% blocks/section %}}
 
-# ... nearby Barcelona, Toulouse, Marseille ...
+## Contact
+
+<font size=+2>
+Contact us at sales@mjbright.net for quotes for training whether
+- on site classroom training or virtual classroom
+- on premises close to Perpignan
+- virtual classes: consecutive/non-consecutive full-days or half-days
+</font>
+{{% /blocks/section %}}
+
+{{% blocks/section %}}
+
+# Based in the South of France
+
+<font size=+2>
+Based in the Pyrénées-Orientales (Perpignan) just 2 hours from Toulouse & Barcelona and with good air and rail links to Paris
+<br/>
+<br/>
+<br/>
+</font>
+
+{.text-center}
+
+# ... with easy access to Barcelona, Toulouse, Marseille ...
 
 {{< cardpane >}}
 {{< card header="" title="" footer="" subtitle="" >}}
@@ -43,4 +71,6 @@ Based in the Pyrénées-Orientales (Perpignan) just 2 hours from Toulouse & Barc
 {.text-center}
 
 {{% /blocks/section %}}
+
+
 
