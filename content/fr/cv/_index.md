@@ -11,10 +11,6 @@ menu: {main: {weight: 80}}
 {{< blocks/link-down color="info" >}}
 {{< /blocks/cover >}}
 
-{{% blocks/section color="dark" type="row" %}}
-<img src="cv.fr.png" width="1118" height="1576" />
-{{% /blocks/section %}}>
-
 <!-- <img src="cv-background.png" width="600" height="1500" /> -->
 
 {{% blocks/section color="primary" type="row" %}}
@@ -154,4 +150,9 @@ Container Orch, Policy Mgmt, IaC, Ansible, ... </br>
 </div>
 </div>
 {{% /blocks/section %}}>
+
+{{% blocks/section color="dark" type="row" %}}
+<img src="cv.fr.png" width="1118" height="1576" />
+{{% /blocks/section %}}>
+
 
