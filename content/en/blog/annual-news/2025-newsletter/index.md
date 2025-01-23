@@ -161,10 +161,13 @@ Stepping into 2025, we remain at the forefront of cutting-edge technologies such
 
 Catch up with us at the following events in Q1 2025:
 
+- [v. brief] January 30th [v. brief]: Learning Technologies, Paris
 - February 1st - 2nd:  FOSDEM, Brussels
 - March 3rd - 6th:     MWC: Mobile World Congress, Barcelona
 - April 1st - 4th:     KubeCon. Europe, London: Join us at the epicentre of Kubernetes
 - April 23rd - 24th:     Learning Technologies, London: for the latest trends in educational AI
+- [unconfirmed] July: OpenEdx Conference, Paris
+- [unconfirmed] August: Open Source Summit, Amsterdam
 
 ... and more to come ...
 

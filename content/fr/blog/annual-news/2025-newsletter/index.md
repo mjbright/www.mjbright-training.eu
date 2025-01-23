@@ -163,10 +163,14 @@ En 2025, nous restons à la pointe des technologies de pointe telles que l'IA da
 
 Retrouvez-nous lors des événements suivants au 1er trimestre 2025 :
 
+- [passage éclair] 30 janvier: Learning Technologies, Paris
 - 1er et 2 février : FOSDEM, Bruxelles
 - 3 - 6 mars : MWC : Mobile World Congress, Barcelone
 - 1er - 4 avril : KubeCon. Europe, Londres : rejoignez-nous à l'épicentre de Kubernetes
 - 23 - 24 avril : Learning Technologies, Londres : pour les dernières tendances en matière d'IA éducative
+- [non-confirmé] July: OpenEdx Conference, Paris
+- [non-confirmé] August: Open Source Summit, Amsterdam
+
 
 ... et bien d'autres à venir...
 
