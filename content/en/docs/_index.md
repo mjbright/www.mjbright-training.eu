@@ -17,7 +17,7 @@ All trainings can be delivered in English or in French and adapted to specific n
 
 {{% /pageinfo %}}
 
-<a class="btn btn-lg btn-secondary me-3 mb-4" href="cv.pdf">
+<a class="btn btn-lg btn-secondary me-3 mb-4" href="Catalog.fr.pdf">
   [English] Catalog Download <i class="fa-regular fa-newspaper"></i>
 </a>
 
