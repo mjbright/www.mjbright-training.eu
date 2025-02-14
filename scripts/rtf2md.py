@@ -97,6 +97,7 @@ if  '/en' in cwd:
     ENGLISH = True
 if  '/fr' in cwd:
     ENGLISH = False
+    CATALOG_FILE = 'Catalog.fr.rtf'
 
 OK=False
 if 'Dropbox/z/www/www.mjbright-training.eu/content/en/docs' in cwd:
@@ -321,7 +322,7 @@ for line in lines:
             'Objective', 'Objectives', 'Objectifs',
             'Target Audience', 'Training Outcomes',
             'Pre-requisites', 'Public concerné et pré-requis',
-            'Included', 'Evaluation', 'Programme'
+            'Included', 'Compris', 'Evaluation', 'Programme'
             ]
 
     if line.startswith("Note:"): line=f'**Note:**{line[5:]}'

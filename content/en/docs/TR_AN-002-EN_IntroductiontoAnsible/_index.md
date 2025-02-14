@@ -4,7 +4,7 @@ weight: 802
 ---
 **Duration: 2 days**
 
-This training proposed as a 2-day training, or 5 half-days, provides a comprehensive introduction to Configuration Management using Ansible.
+This training proposed as a 2-day training, or 4 half-days, provides a comprehensive introduction to Configuration Management using Ansible.
 
 
 **Note:** This training also exists as a 3-day training “AN-003-EN Introduction to Ansible” allowing more time for labs and also the addition of “Ansible Vault” and “Network Automation” modules.
@@ -18,23 +18,23 @@ Students will appreciate the ease with which software can be installed & maintai
 
 # Pre-requisites
 
-Be at ease working at the command-line, editing files
-Basic notions of Cloud, Linux, Containers
-Use of an ssh Client, e.g. openssh on Linux, macOS or Windows (or Putty)
+- Be at ease working at the command-line, editing files
+- Basic notions of Cloud, Linux, Containers
+- Use of an ssh Client, e.g. openssh on Linux, macOS or Windows (or Putty)
 |
 
 # Included
 
-Course materials and labs: 50% hands-on, 50% presentation & demos
-Access to a temporary lab environment
-Access to an evolutive document covering various learning resources
+- Course materials and labs: 50% hands-on, 50% presentation & demos
+- Access to a temporary lab environment
+- ccess to an evolutive document covering various learning resources
 |
 
 # Objectives
 
-Learn to use Ansible for performing software configuration & maintenance of machines/devices
-Learn about the many builtin modules, collections of modules & roles for Ansible
-Learn best practices for working with Ansible
+- Learn to use Ansible for performing software configuration & maintenance of machines/devices
+- Learn about the many builtin modules, collections of modules & roles for Ansible
+- Learn best practices for working with Ansible
 |
 
 
@@ -152,10 +152,5 @@ Learn best practices for working with Ansible
 
 - Converting Playbooks to Roles
 - Creating Roles from Scratch
-- Ansible Galaxy Roles
-
-
-**Exercise**
-
-- Optimizing Ansible|
+- Ansible Galaxy Roles|
 

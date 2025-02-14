@@ -17,7 +17,7 @@ Toute les formations peuvent être adaptés à vos besoins sur:
 
 {{% /pageinfo %}}
 
-<a class="btn btn-lg btn-secondary me-3 mb-4" href="Catalog.pdf">
+<a class="btn btn-lg btn-secondary me-3 mb-4" href="cv.pdf">
   [English] Catalog Download <i class="fa-regular fa-newspaper"></i>
 </a>
 
@@ -30,3 +30,7 @@ Toute les formations peuvent être adaptés à vos besoins sur:
 - <a href="tr_k8s-011-fr_introductionahelm/" > K8S-011-FR Introduction a Helm </a>
 
 # Terraform (/OpenTofu) Trainings
+
+# Ansible Trainings
+- <a href="tr_an-002-fr_introductiontoansible/" > AN-002-FR Introduction to Ansible </a>
+- <a href="tr_an-003-fr_introductiontoansible/" > AN-003-FR Introduction to Ansible </a>

@@ -4,7 +4,7 @@ weight: 803
 ---
 **Duration: 3 days**
 
-This training proposed as a 3-day training, or 5 half-days, provides a comprehensive introduction to Configuration Management using Ansible.
+This training proposed as a 3-day training, or 6 half-days, provides a comprehensive introduction to Configuration Management using Ansible.
 
 
 **Note:** This training also exists as a 2-day training “AN-002-EN Introduction to Ansible” excluding “Ansible Vault” and “Network Automation” modules.
