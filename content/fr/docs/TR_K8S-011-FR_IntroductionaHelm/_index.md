@@ -103,4 +103,3 @@ A partir d’un exemple concret, nous regarderons les aspects suivants
 - Recueillir des commentaires pour améliorer la formation.|
 
 Terraform
-Ansible

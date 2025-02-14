@@ -30,6 +30,9 @@ Toute les formations peuvent être adaptés à vos besoins sur:
 - <a href="tr_k8s-011-fr_introductionahelm/" > K8S-011-FR Introduction a Helm </a>
 
 # Terraform (/OpenTofu) Trainings
+- <a href="tr_tf-000-fr_introductionaterraform(core)/" > TF-000-FR Introduction a Terraform (CORE) </a>
+- <a href="tr_tf-001-fr_terraformintroduction(aws)/" > TF-001-FR Terraform Introduction (AWS) </a>
+- <a href="tr_tf-002-fr_terraformintroduction(azure)/" > TF-002-FR Terraform Introduction (Azure) </a>
 
 # Ansible Trainings
 - <a href="tr_an-002-fr_introductiontoansible/" > AN-002-FR Introduction to Ansible </a>
