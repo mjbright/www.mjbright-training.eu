@@ -1,16 +1,16 @@
 ---
-title: TF-001-EN Terraform Introduction (AWS)
-weight: 901
+title: TF-002-EN Terraform Introduction (Azure)
+weight: 902
 ---
 **Duration: 1 day**
 
-This training proposed as a 1-day training, or 2 half-days, applies to the AWS Cloud the principles of Terraform already learnt in the “TF-000-EN Terraform Introduction (CORE)” 2-day training to resources.
+This training proposed as a 1-day training, or 2 half-days, applies to the Azure Cloud the principles of Terraform already learnt in the “TF-000-EN Terraform Introduction (CORE)” 2-day training to resources.
 
-This training will be oriented more toward hands-on than theory - it is not intended to teach about AWS, but to experience the application of Terraform to AWS resources
+This training will be oriented more toward hands-on than theory - it is not intended to teach about Azure, but to experience the application of Terraform to Azure resources
 
 **Note:** Taking “TF-000-EN Terraform Introduction (CORE)” is a prerequisite for this cloud specific training.
 
-Terraform allows to manage the deployment of different infrastructure types via the appropriate “Provider” plugin - this course uses the AWS provider allowing to manage many AWS cloud resources.
+Terraform allows to manage the deployment of different infrastructure types via the appropriate “Provider” plugin - this course uses the Azure provider allowing to manage many Azure cloud resources.
 
 Students will appreciate the ease with which infrastructure resources are defined in a declarative manner allowing resources to be created, updated or destroyed in an idempotent manner.
 
@@ -34,15 +34,13 @@ Access to an evolutive document covering various Terraform learning resources
 
 # Objectives
 
-Learn to use Terraform for standing up various AWS resources, in a declarative manner
-Learn to use AWS specific modules, data sources & tooling
+Learn to use Terraform for standing up various Azure resources, in a declarative manner
+Learn to use Azure specific modules, data sources & tooling
 |
-
-**Note:** the following AWS specific resources are proposed, but can be adapted to customer needs
+**Note:** the following Azure specific resources are proposed, but can be adapted to customer needs
 
 
 # Programme
-
 
 
 **Module: Review**
@@ -53,20 +51,20 @@ Learn to use AWS specific modules, data sources & tooling
 
 **Module: Working with Containers**
 
-- Managing AWS ECS containers with Terraform
-- Using Data Sources with AWS ECS
+- Managing Azure ACI containers with Terraform
+- Using Data Sources with Azure ACI
 
 
 **Module: Working with VMs**
 
-- Managing AWS EC2 virtual machines with Terraform
-- Using Data Sources with AWS EC2
+- Managing Azure virtual machines with Terraform
+- Using Data Sources with Azure VMs
 
 
 **Module: Working with modules**
 
-- Terraform registry: Working with existing terraform modules for AWS
-- Writing modules for AWS: Creating clusters of VMs
+- Terraform registry:: Working with existing terraform modules for Azure
+- Writing modules for Azure: Creating clusters of VMs
 
 
 **Module: Templates**
@@ -84,24 +82,24 @@ Learn to use AWS specific modules, data sources & tooling
 **Module: State**
 
 - Local State
-- Using AWS/S3+DynamoDB for “remote state”
+- Using Azure Blob Storage for “remote state”
 
 
 **Module: Importation of foreign ressources**
 
-- Importation of AWS resources
-- Move of AWS resources
+- Importation of Azure resources
+- Move of Azure resources
 
 
 **Module: Auto-scaling & Load-Balancing**
 
-- AWS EC2 ASG - Autoscaling Groups
-- AWS EC2 ALB - Application Load Balancer
+- Azure VM ScaleSets
+- terraform-azurerm-loadbalancer
 
 
-**Module: Other AWS resources**
+**Module: Other Azure resources**
 
-- Lambda, VPC, EIP, S3, EBS, IAM, RDS
+- Azure functions, Azure VPC, Azure Public IP, Blob Storage, AKS
 
 
 **Module: In Production**

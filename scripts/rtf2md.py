@@ -11,6 +11,8 @@ from inspect import currentframe, getframeinfo
 #import re
 import os
 
+COURSE_GROUPS=['K8S', 'TF', 'AN']
+
 # -- Func: -------------------------------------------------------------------
 
 def die(msg):
@@ -37,19 +39,26 @@ def writefile(path, text='hello world\n', mode='w'):
     ofd.close()
 
 
-def pr_line(prefix, line=''):
+def pr_line(line=''):
     global CURRENT_TRAINING_TEXT, CURRENT_TRAINING_TITLE
 
-    if prefix == '':
+    if DEBUG_PREFIX == '':
         print(line)
         if CURRENT_TRAINING_TITLE != '':
             CURRENT_TRAINING_TEXT += line + '\n'
         return
-    print(prefix + line)
+    print(DEBUG_PREFIX + line)
     if CURRENT_TRAINING_TITLE != '':
         CURRENT_TRAINING_TEXT += line + '\n'
     return
 
+def writeTrainingDirFile(tr_dir, tr_file, text):
+    # SAVE current training
+    if not os.path.exists( CURRENT_TRAINING_DIR):
+        os.mkdir(CURRENT_TRAINING_DIR)
+    print(f'writefile({CURRENT_TRAINING_FILE})')
+    writefile(CURRENT_TRAINING_FILE, text=CURRENT_TRAINING_TEXT)
+            
 # -- Args: -------------------------------------------------------------------
 
 SIMPLE_LISTS = False
@@ -57,8 +66,20 @@ VERBOSE = False
 a = 1
 #CATALOG_FILE = 'Catalog_English.rtf'
 CATALOG_FILE = 'Catalog.rtf'
+PROMPTS = True
+SHOW_RAW = False
 
 while a < len(sys.argv):
+    if sys.argv[a] == '-np':
+        a += 1
+        PROMPTS = False
+        continue
+
+    if sys.argv[a] == '-raw':
+        SHOW_RAW = True
+        a += 1
+        continue
+
     if sys.argv[a] == '-v':
         VERBOSE = True
         print("VERBOSE mode on")
@@ -76,6 +97,14 @@ if  '/en' in cwd:
     ENGLISH = True
 if  '/fr' in cwd:
     ENGLISH = False
+
+OK=False
+if 'Dropbox/z/www/www.mjbright-training.eu/content/en/docs' in cwd:
+    OK=True
+if 'Dropbox/z/www/www.mjbright-training.eu/content/fr/docs' in cwd:
+    OK=True
+if not OK:
+    die("Must be run from either 'content/en/docs' or 'content/fr/docs'")
 #if 'english' in CATALOG_FILE.lower():
 #if 'french' in CATALOG_FILE.lower():
 
@@ -88,7 +117,11 @@ with open(CATALOG_FILE) as infile:
     content = infile.read()
     lines = rtf_to_text(content).split('\n')
 
-writefile('/tmp/catalog.rtf.txt', '\n'.join(lines))
+TXT_FILE='/tmp/catalog.rtf.txt'
+writefile(TXT_FILE, '\n'.join(lines))
+print(f'RAW text [{ len(lines)} lines] written to {TXT_FILE}')
+if SHOW_RAW:
+    sys.exit(0)
 
 LIST_LEVEL = 0
 n = 0
@@ -138,9 +171,9 @@ course_titles = []
 # START DOCUMENT:
 for line in lines:
     n += 1
-    P = ''
-    if VERBOSE: P = str(n)+': '
-    if VERBOSE: pr_line(P, f'INITIAL {line}')
+    DEBUG_PREFIX = ''
+    if VERBOSE: DEBUG_PREFIX = str(n)+': '
+    if VERBOSE: pr_line(f'INITIAL {line}')
     #print(type(line))
     #print(dir(line))
 
@@ -149,7 +182,7 @@ for line in lines:
         IN_ADAPTATION_SECTION=True
         a_line = 0
         CURRENT_TRAINING_TITLE = 'ADAPTATION'
-        pr_line(P, '### Adaptation')
+        pr_line('### Adaptation')
         continue
 
     if IN_ADAPTATION_SECTION:
@@ -166,13 +199,13 @@ for line in lines:
             CURRENT_TRAINING_TEXT = ''
             #line=''
             continue
-        #pr_line(P, line)
+        #pr_line(line)
         if a_line <= 1:
-            pr_line(P, line)
-            #pr_line(P, f'{a_line}: {line}\n')
+            pr_line(line)
+            #pr_line(f'{a_line}: {line}\n')
         else:
-            pr_line(P, f'- {line}')
-            #pr_line(P, f'{a_line}: - {line}\n')
+            pr_line(f'- {line}')
+            #pr_line(f'{a_line}: - {line}\n')
         continue
 
     # START TRAININGS SECTION:
@@ -183,20 +216,28 @@ for line in lines:
     if not IN_TRAININGS_SECTION:
         continue
 
+    # SKIP TRAINING SECTION HEADERS:
+    if line.startswith('TRAININGS: ') or line.startswith('FORMATIONS: '):
+        continue
+
     # DETECT NEW TRAINING:
     if line.startswith('['):
+        print()
+        print("NEW TRAINING DETECTED (line starts with '[')")
         print(f'LINE={line}')
         print(f'IN_ADAPTATION_SECTION={IN_ADAPTATION_SECTION} IN_TRAININGS_SECTION={ IN_TRAININGS_SECTION}')
-        input()
+
+
         if CURRENT_TRAINING_TITLE != '':
-            # SAVE current training
-            if not os.path.exists( CURRENT_TRAINING_DIR):
-                os.mkdir(CURRENT_TRAINING_DIR)
-            print(f'writefile({CURRENT_TRAINING_FILE})')
-            writefile(CURRENT_TRAINING_FILE, text=CURRENT_TRAINING_TEXT)
-            
+            print('Writing previous section:')
+            print(f'    CURRENT_TRAINING_TITLE={CURRENT_TRAINING_TITLE}')
+            print(f'    CURRENT_TRAINING_DIR={CURRENT_TRAINING_DIR}')
+            if PROMPTS:
+                input()
+            writeTrainingDirFile( CURRENT_TRAINING_DIR, CURRENT_TRAINING_FILE, CURRENT_TRAINING_TEXT)
+
         pos_closeBracket = line.find(']')
-        if pos_closeBracket == -1: die("Expected to find ']' in line {line}")
+        if pos_closeBracket == -1: die("Expected to find ']' in line {n} '{line}'")
         course_key=line[1+pos_closeBracket:].strip()
         course_duration=line[1:pos_closeBracket]
         if ENGLISH:
@@ -238,6 +279,7 @@ for line in lines:
         match course_group :
             case 'K8S' : course_weight = 1000
             case 'TF'  :  course_weight  = 900
+            case 'AN'  :  course_weight  = 800
             case _     : die(f'Untreated course group {course_group}')
 
         pos_dash = rest.find('-')
@@ -256,13 +298,13 @@ for line in lines:
         '''
 
         # Front-matter
-        pr_line(P, '---')
-        pr_line(P, f'title: {course_key} {course_title}')
-        pr_line(P, f'weight: {course_weight}')
-        pr_line(P, '---')
+        pr_line('---')
+        pr_line(f'title: {course_key} {course_title}')
+        pr_line(f'weight: {course_weight}')
+        pr_line('---')
 
-        pr_line(P, f'# {course_title}')
-        pr_line(P, f'**Duration: {course_duration}**\n')
+        # pr_line(f'# {course_title}')
+        pr_line(f'**Duration: {course_duration}**\n')
         continue
 
     # Skip first entry of training
@@ -275,57 +317,75 @@ for line in lines:
 
     line = line.rstrip()
     header2s= [
+            'Description',
             'Objective', 'Objectives', 'Objectifs',
             'Target Audience', 'Training Outcomes',
             'Pre-requisites', 'Public concerné et pré-requis',
-            'Evaluation', 'Programme'
+            'Included', 'Evaluation', 'Programme'
             ]
 
     if line.startswith("Note:"): line=f'**Note:**{line[5:]}'
 
     # Careful to keep ':' at end of line:
     # Also inset line-feed before Day (for Day 1):
-    if line.startswith("Day ") or line.startswith("Jour "):
-        line=f'\n**{line[:-1]}**:'
-        LIST_LEVEL = 0 # Hack ?
-        #LIST_LEVEL = 1 # Hack ?
-
-    if LIST_LEVEL == 0:
-        for header2 in header2s:
-            if line == header2:
-                pr_line(P, f'\n# {header2}')
-                line='' # Hack !
-                continue
-
-    if line.endswith(':'):
-        if SIMPLE_LISTS:
-            LIST_LEVEL = 1
+    # if line.startswith("Day ") or line.startswith("Jour "):
+    if line.startswith("MODULE: ") or line.startswith("EXERCISE"):
+        line=line.rstrip(":")
+        line=line.replace("MODULE", "Module")
+        if ENGLISH:
+            line=line.replace("EXERCISE", "Exercise")
         else:
-            LIST_LEVEL += 1
-        pr_line(P, line)
+            line=line.replace("EXERCISE", "TP")
+        line=f'\n**{line}**\n'
+        pr_line(line)
+        #LIST_LEVEL = 1 # Hack ?
         continue
 
-    if LIST_LEVEL > 0:
-        if len(line) == 0 or line == '|':
-            if SIMPLE_LISTS:
-                LIST_LEVEL = 0
-            else:
-                LIST_LEVEL -= 1
-            if VERBOSE: pr_line(P, 'EMPTY')
-            pr_line(P)
-        else:
-            INDENT_LIST = LIST_LEVEL * '  '
-            pr_line(P, f'{INDENT_LIST}- {line}')
-    else:
-        pr_line(P, line)
+    for header2 in header2s:
+        if line == header2:
+            pr_line(f'\n# {header2}')
+            line='' # Hack !
+            continue
 
-for course_group in ['K8S', 'TF']:
+    if line.startswith("* "):
+        line=line.rstrip(":")
+        line=line[2:]
+        pr_line(f'- {line}')
+        continue
+   
+    if line.startswith("    * "):
+        line=line.rstrip(":")
+        line=line[6:]
+        pr_line(f'  - {line}')
+        continue
+   
+    if line.startswith("        * "):
+        line=line[10:]
+        line=line.rstrip(":")
+        pr_line(f'    - {line}')
+        continue
+
+    if not line.startswith('**Note:**') and line.lstrip().startswith('*'):
+        die(f"Bad indentation in line {n} '{line}'")
+   
+    pr_line(line)
+
+if CURRENT_TRAINING_TITLE != '':
+    print('Writing previous section:')
+    print(f'    CURRENT_TRAINING_TITLE={CURRENT_TRAINING_TITLE}')
+    print(f'    CURRENT_TRAINING_DIR={CURRENT_TRAINING_DIR}')
+    if PROMPTS:
+        input()
+    writeTrainingDirFile( CURRENT_TRAINING_DIR, CURRENT_TRAINING_FILE, CURRENT_TRAINING_TEXT)
+
+for course_group in COURSE_GROUPS:
     match course_group :
         case 'K8S': line='# Kubernetes Trainings'
         case 'TF':  line='# Terraform (/OpenTofu) Trainings'
+        case 'AN':  line='# Ansible Trainings'
         case '_':   line='# Other Trainings'
 
-    pr_line('', line)
+    pr_line(line)
     TRAINING_INDEX_TEXT_EN += '\n' + line + '\n'
 
     for c in range(len(course_keys)):

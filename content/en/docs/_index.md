@@ -17,7 +17,7 @@ All trainings can be delivered in English or in French and adapted to specific n
 
 {{% /pageinfo %}}
 
-<a class="btn btn-lg btn-secondary me-3 mb-4" href="Catalog.fr.pdf">
+<a class="btn btn-lg btn-secondary me-3 mb-4" href="cv.pdf">
   [English] Catalog Download <i class="fa-regular fa-newspaper"></i>
 </a>
 
@@ -33,3 +33,7 @@ All trainings can be delivered in English or in French and adapted to specific n
 - <a href="tr_tf-000-en_terraformintroduction(core)/" > TF-000-EN Terraform Introduction (CORE) </a>
 - <a href="tr_tf-001-en_terraformintroduction(aws)/" > TF-001-EN Terraform Introduction (AWS) </a>
 - <a href="tr_tf-002-en_terraformintroduction(azure)/" > TF-002-EN Terraform Introduction (Azure) </a>
+
+# Ansible Trainings
+- <a href="tr_an-002-en_introductiontoansible/" > AN-002-EN Introduction to Ansible </a>
+- <a href="tr_an-003-en_introductiontoansible/" > AN-003-EN Introduction to Ansible </a>
