@@ -2,7 +2,7 @@
 title: K8S-020-FR Preparation a l’examen CKA
 weight: 1020
 ---
-**Duration: 1 jour**
+**Durée: 1 jour**
 
 
 

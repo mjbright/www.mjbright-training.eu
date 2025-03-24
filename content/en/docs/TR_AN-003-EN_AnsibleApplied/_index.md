@@ -1,5 +1,5 @@
 ---
-title: AN-003-EN Introduction to Ansible
+title: AN-003-EN Ansible Applied
 weight: 803
 ---
 **Duration: 3 days**

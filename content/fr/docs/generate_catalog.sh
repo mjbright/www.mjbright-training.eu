@@ -9,5 +9,5 @@ die() { echo "$0: die - $*" >&2; exit 1; }
 
 set -x; rm -rf TR_*/; set +x
 
-../../../scripts/rtf2md.py Catalog.fr.rtf
+../../../scripts/rtf2md.py $* Catalog.fr.rtf
 

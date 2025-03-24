@@ -2,7 +2,7 @@
 title: K8S-011-FR Introduction a Helm
 weight: 1011
 ---
-**Duration: 1 jour**
+**Durée: 1 jour**
 
 
 

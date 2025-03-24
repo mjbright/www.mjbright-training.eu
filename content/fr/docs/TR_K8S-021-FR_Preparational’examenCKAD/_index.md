@@ -2,7 +2,7 @@
 title: K8S-021-FR Preparation a l’examen CKAD
 weight: 1021
 ---
-**Duration: 1 jour**
+**Durée: 1 jour**
 
 
 

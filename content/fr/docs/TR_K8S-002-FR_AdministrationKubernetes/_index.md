@@ -2,7 +2,7 @@
 title: K8S-002-FR Administration Kubernetes
 weight: 1002
 ---
-**Duration: 4 jours**
+**Durée: 4 jours**
 
 
 

@@ -18,12 +18,12 @@ Terraform allows to manage the deployment of different infrastructure types via 
 Students will appreciate the ease with which infrastructure resources are defined in a declarative manner - using HCL v2 - “HashiCorp Configuration Language” - allowing resources to be created, updated or destroyed in an idempotent manner.
 
 It is recommended to combine this 2-day training with one or more of the following 1-day Provider specific trainings:
-- TF-001-EN Terraform Introduction (AWS)
-- TF-002-EN Terraform Introduction Terraform (Azure)
-- TF-003-EN Terraform Introduction Terraform (Google Cloud)
-- TF-004-EN Terraform Introduction Terraform (Oracle Cloud)
-- TF-005-EN Terraform Introduction Terraform (OpenStack)
-- TF-006-EN Terraform Introduction Terraform (Proxmox)
+- TF-001-EN Terraform Applied (AWS)
+- TF-002-EN Terraform Applied (Azure)
+- TF-003-EN Terraform Applied (Google Cloud)
+- TF-004-EN Terraform Applied (Oracle Cloud)
+- TF-005-EN Terraform Applied (OpenStack)
+- TF-006-EN Terraform Applied (Proxmox)
 |
 
 # Pre-requisites

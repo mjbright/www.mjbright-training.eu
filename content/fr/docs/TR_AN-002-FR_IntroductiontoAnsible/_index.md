@@ -2,7 +2,7 @@
 title: AN-002-FR Introduction to Ansible
 weight: 802
 ---
-**Duration: 2 jours**
+**Durée: 2 jours**
 
 Cette formation proposée sous forme de formation de 2 jours, ou 4 demi-journées, offre une introduction complète à la gestion de configuration sous Ansible.
 

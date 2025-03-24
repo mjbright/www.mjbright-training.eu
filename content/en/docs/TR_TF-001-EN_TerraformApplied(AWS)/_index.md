@@ -1,5 +1,5 @@
 ---
-title: TF-001-EN Terraform Introduction (AWS)
+title: TF-001-EN Terraform Applied (AWS)
 weight: 901
 ---
 **Duration: 1 day**

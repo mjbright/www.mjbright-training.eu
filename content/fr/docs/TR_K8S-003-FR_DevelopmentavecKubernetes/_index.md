@@ -2,7 +2,7 @@
 title: K8S-003-FR Development avec Kubernetes
 weight: 1003
 ---
-**Duration: 3 jours**
+**Durée: 3 jours**
 
 
 

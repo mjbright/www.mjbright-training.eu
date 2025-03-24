@@ -1,19 +1,19 @@
 ---
-title: TF-002-FR Terraform Introduction (Azure)
-weight: 902
+title: TF-001-FR Terraform appliqué à (AWS)
+weight: 901
 ---
-**Duration: 1 jour**
+**Durée: 1 jour**
 
-Cette formation proposée en formation d'1 journée, ou 2 demi-journées, applique au Cloud Azure les principes de Terraform déjà appris dans la formation « TF-000-EN Terraform Introduction (CORE) » de 2 jours aux ressources.
+Cette formation proposée en formation d'1 journée, ou 2 demi-journées, applique au Cloud AWS les principes de Terraform déjà appris dans la formation « TF-000-EN Terraform Introduction (CORE) » de 2 jours aux ressources.
 
 
-Cette formation sera davantage orientée vers la pratique que vers la théorie : elle n'est pas destinée à enseigner Azure, mais à expérimenter l'application de Terraform aux ressources AWS.
+Cette formation sera davantage orientée vers la pratique que vers la théorie : elle n'est pas destinée à enseigner AWS, mais à expérimenter l'application de Terraform aux ressources AWS.
 
 
 **Note:** Suivre « TF-000-FR Terraform Introduction (CORE) » est un prérequis pour cette formation spécifique au cloud.
 
 
-Terraform permet de gérer le déploiement de différents types d'infrastructures via le plugin « Provider » approprié - ce cours utilise le fournisseur Azure permettant de gérer de nombreuses ressources cloud Azure.
+Terraform permet de gérer le déploiement de différents types d'infrastructures via le plugin « Provider » approprié - ce cours utilise le fournisseur AWS permettant de gérer de nombreuses ressources cloud AWS.
 
 
 Les étudiants apprécieront la facilité avec laquelle les ressources d'infrastructure sont définies de manière déclarative permettant de créer, de mettre à jour ou de détruire des ressources de manière idempotente.
@@ -39,13 +39,15 @@ Terraform utilise HCL v2 – « HashiCorp Configuration Language » – pour dé
 
 # Objectives
 
-- Apprenez à utiliser Terraform pour mettre en place diverses ressources Azure, de manière déclarative
-- Apprenez à utiliser les modules, sources de données et outils spécifiques à Azure
+- Apprenez à utiliser Terraform pour mettre en place diverses ressources AWS, de manière déclarative
+- Apprenez à utiliser les modules, sources de données et outils spécifiques à AWS
 |
-**Note:** les ressources spécifiques Azure suivantes sont proposées, mais peuvent être adaptées aux besoins des clients.
+
+**Note:** les ressources spécifiques AWS suivantes sont proposées, mais peuvent être adaptées aux besoins des clients.
 
 
 # Programme
+
 
 
 **Module: Review**
@@ -56,20 +58,20 @@ Terraform utilise HCL v2 – « HashiCorp Configuration Language » – pour dé
 
 **Module: Working with Containers**
 
-- Managing Azure ACI containers with Terraform
-- Using Data Sources with Azure ACI
+- Managing AWS ECS containers with Terraform
+- Using Data Sources with AWS ECS
 
 
 **Module: Working with VMs**
 
-- Managing Azure virtual machines with Terraform
-- Using Data Sources with Azure VMs
+- Managing AWS EC2 virtual machines with Terraform
+- Using Data Sources with AWS EC2
 
 
 **Module: Working with modules**
 
-- Terraform registry:: Working with existing terraform modules for Azure
-- Writing modules for Azure: Creating clusters of VMs
+- Terraform registry: Working with existing terraform modules for AWS
+- Writing modules for AWS: Creating clusters of VMs
 
 
 **Module: Templates**
@@ -87,24 +89,24 @@ Terraform utilise HCL v2 – « HashiCorp Configuration Language » – pour dé
 **Module: State**
 
 - Local State
-- Using Azure Blob Storage for “remote state”
+- Using AWS/S3+DynamoDB for “remote state”
 
 
 **Module: Importation of foreign ressources**
 
-- Importation of Azure resources
-- Move of Azure resources
+- Importation of AWS resources
+- Move of AWS resources
 
 
 **Module: Auto-scaling & Load-Balancing**
 
-- Azure VM ScaleSets
-- terraform-azurerm-loadbalancer
+- AWS EC2 ASG - Autoscaling Groups
+- AWS EC2 ALB - Application Load Balancer
 
 
-**Module: Other Azure resources**
+**Module: Other AWS resources**
 
-- Azure functions, Azure VPC, Azure Public IP, Blob Storage, AKS
+- Lambda, VPC, EIP, S3, EBS, IAM, RDS
 
 
 **Module: In Production**
@@ -112,5 +114,3 @@ Terraform utilise HCL v2 – « HashiCorp Configuration Language » – pour dé
 - Provisioners (Local-exec, File, Remote-exec)
 - Provider Aliases|
 
-
-Ansible

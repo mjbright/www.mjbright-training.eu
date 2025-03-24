@@ -1,5 +1,5 @@
 ---
-title: TF-002-EN Terraform Introduction (Azure)
+title: TF-002-EN Terraform Applied (Azure)
 weight: 902
 ---
 **Duration: 1 day**

@@ -1,8 +1,8 @@
 ---
-title: AN-003-FR Introduction to Ansible
+title: AN-003-FR Ansible Appliqué
 weight: 803
 ---
-**Duration: 3 jours**
+**Durée: 3 jours**
 
 Cette formation proposée sous forme de formation de 3 jours, ou 6 demi-journées, offre une introduction complète à la gestion de configuration sous Ansible.
 

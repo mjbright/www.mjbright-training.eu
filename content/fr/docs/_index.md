@@ -25,15 +25,15 @@ Toute les formations peuvent être adaptés à vos besoins sur:
 # Kubernetes Trainings
 - <a href="tr_k8s-002-fr_administrationkubernetes/" > K8S-002-FR Administration Kubernetes </a>
 - <a href="tr_k8s-003-fr_developmentaveckubernetes/" > K8S-003-FR Development avec Kubernetes </a>
-- <a href="tr_k8s-020-fr_preparational’examencka/" > K8S-020-FR Preparation a l’examen CKA </a>
-- <a href="tr_k8s-021-fr_preparational’examenckad/" > K8S-021-FR Preparation a l’examen CKAD </a>
+- <a href="tr_k8s-020-fr_preparationalexamencka/" > K8S-020-FR Preparation a l’examen CKA </a>
+- <a href="tr_k8s-021-fr_preparationalexamenckad/" > K8S-021-FR Preparation a l’examen CKAD </a>
 - <a href="tr_k8s-011-fr_introductionahelm/" > K8S-011-FR Introduction a Helm </a>
 
 # Terraform (/OpenTofu) Trainings
-- <a href="tr_tf-000-fr_introductionaterraform(core)/" > TF-000-FR Introduction a Terraform (CORE) </a>
-- <a href="tr_tf-001-fr_terraformintroduction(aws)/" > TF-001-FR Terraform Introduction (AWS) </a>
-- <a href="tr_tf-002-fr_terraformintroduction(azure)/" > TF-002-FR Terraform Introduction (Azure) </a>
+- <a href="tr_tf-000-fr_introductionaterraformcore/" > TF-000-FR Introduction a Terraform (CORE) </a>
+- <a href="tr_tf-001-fr_terraformappliquéàaws/" > TF-001-FR Terraform appliqué à (AWS) </a>
+- <a href="tr_tf-002-fr_terraformappliquéàazure/" > TF-002-FR Terraform appliqué à (Azure) </a>
 
 # Ansible Trainings
 - <a href="tr_an-002-fr_introductiontoansible/" > AN-002-FR Introduction to Ansible </a>
-- <a href="tr_an-003-fr_introductiontoansible/" > AN-003-FR Introduction to Ansible </a>
+- <a href="tr_an-003-fr_ansibleappliqué/" > AN-003-FR Ansible Appliqué </a>

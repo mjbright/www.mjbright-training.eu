@@ -30,10 +30,10 @@ All trainings can be delivered in English or in French and adapted to specific n
 - <a href="tr_k8s-011-en_introductiontohelm/" > K8S-011-EN Introduction to Helm </a>
 
 # Terraform (/OpenTofu) Trainings
-- <a href="tr_tf-000-en_terraformintroduction(core)/" > TF-000-EN Terraform Introduction (CORE) </a>
-- <a href="tr_tf-001-en_terraformintroduction(aws)/" > TF-001-EN Terraform Introduction (AWS) </a>
-- <a href="tr_tf-002-en_terraformintroduction(azure)/" > TF-002-EN Terraform Introduction (Azure) </a>
+- <a href="tr_tf-000-en_terraformintroductioncore/" > TF-000-EN Terraform Introduction (CORE) </a>
+- <a href="tr_tf-001-en_terraformappliedaws/" > TF-001-EN Terraform Applied (AWS) </a>
+- <a href="tr_tf-002-en_terraformappliedazure/" > TF-002-EN Terraform Applied (Azure) </a>
 
 # Ansible Trainings
 - <a href="tr_an-002-en_introductiontoansible/" > AN-002-EN Introduction to Ansible </a>
-- <a href="tr_an-003-en_introductiontoansible/" > AN-003-EN Introduction to Ansible </a>
+- <a href="tr_an-003-en_ansibleapplied/" > AN-003-EN Ansible Applied </a>

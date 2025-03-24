@@ -2,7 +2,7 @@
 title: TF-000-FR Introduction a Terraform (CORE)
 weight: 900
 ---
-**Duration: 2 jours**
+**Durée: 2 jours**
 
 Cette formation, proposée sous forme de formation de 2 jours, ou 4 demi-journées, présente aux étudiants les avantages de développer « Infrastructure as Code » avec Terraform.
 
@@ -24,12 +24,12 @@ Les étudiants apprécieront la facilité avec laquelle les ressources d'infrast
 
 
 Il est recommandé de combiner cette formation de 2 jours avec une ou plusieurs des formations d'une journée spécifiques au prestataire suivantes :
-- TF-001-FR Terraform Introduction (AWS)
-- TF-002-FR Terraform Introduction Terraform (Azure)
-- TF-003-FR Terraform Introduction Terraform (Google Cloud)
-- TF-004-FR Terraform Introduction Terraform (Oracle Cloud)
-- TF-005-FR Terraform Introduction Terraform (OpenStack)
-- TF-006-FR Terraform Introduction Terraform (Proxmox)|
+- TF-001-FR Terraform appliqué à (AWS)
+- TF-002-FR Terraform appliqué à (Azure)
+- TF-003-FR Terraform appliqué à (Google Cloud)
+- TF-004-FR Terraform appliqué à  (Oracle Cloud)
+- TF-005-FR Terraform appliqué à (OpenStack)
+- TF-006-FR Terraform appliqué à (Proxmox)|
 
 # Pre-requisites
 

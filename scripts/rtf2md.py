@@ -305,7 +305,10 @@ for line in lines:
         pr_line('---')
 
         # pr_line(f'# {course_title}')
-        pr_line(f'**Duration: {course_duration}**\n')
+        if ENGLISH:
+            pr_line(f'**Duration: {course_duration}**\n')
+        else:
+            pr_line(f'**Durée: {course_duration}**\n')
         continue
 
     # Skip first entry of training
@@ -396,6 +399,16 @@ for course_group in COURSE_GROUPS:
         #course_in_a_group=False
         #print(f'{course_group} - {course_key} {course_title}\n')
         if course_group in course_key:
+
+            # Correct Terraform Applied (AWS/Azure/Core) and other special symbols:
+            if "'" in course_dir:
+                course_dir = course_dir.replace("'",'')
+            # Special quote char:
+            if "’" in course_dir:
+                course_dir = course_dir.replace("’",'')
+            if '(' in course_dir:
+                course_dir = course_dir.replace(' ', '').replace('(', '').replace(')', '')
+
             line=f'- <a href="{course_dir.lower()}/" > {course_key} {course_title} </a>'
             print(line)
             TRAINING_INDEX_TEXT_EN +=  line + '\n'
