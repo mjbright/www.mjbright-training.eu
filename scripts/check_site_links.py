@@ -108,6 +108,8 @@ def check_index_page(site_url, index_url):
 
 ## == Args: ===========================================================================
 
+site_url = "https://www.mjbright-training.eu"
+
 if len(sys.argv) > 1:
     if sys.argv[1] == "mjb":
         site_url = "https://www.mjbright-training.eu"
