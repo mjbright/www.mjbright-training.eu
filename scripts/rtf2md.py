@@ -278,7 +278,8 @@ for line in lines:
 
         print(f'course_group={course_group}')
         match course_group :
-            case 'K8S' : course_weight = 1000
+            case 'LIN' :  course_weight = 1100
+            case 'K8S' :  course_weight = 1000
             case 'TF'  :  course_weight  = 900
             case 'AN'  :  course_weight  = 800
             case _     : die(f'Untreated course group {course_group}')

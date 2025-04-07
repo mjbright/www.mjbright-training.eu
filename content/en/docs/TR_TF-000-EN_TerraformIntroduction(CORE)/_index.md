@@ -99,6 +99,8 @@ Know where to find information about other Providers, Modules for Google Cloud, 
 **Module: In Practice**
 
 - Variable validation
+- Terraform Test Framework
+- Terraform Docs
 - Debugging
 - 3rd-party tools
 
@@ -109,9 +111,8 @@ Know where to find information about other Providers, Modules for Google Cloud, 
 - Using “remote state” for working in teams
 
 
-**Module: Importation of foreign ressources**
+**Module: Importing foreign ressources**
 
-Importation of resources created outside Terraform:
 - terraform import
 - Import blocks
 

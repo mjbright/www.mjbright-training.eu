@@ -101,6 +101,8 @@ Sachez où trouver des informations sur les autres fournisseurs, modules pour Go
 **Module: In Practice**
 
 - Variable validation
+- Terraform Test Framework
+- Terraform Docs
 - Debugging
 - 3rd-party tools
 
@@ -111,9 +113,8 @@ Sachez où trouver des informations sur les autres fournisseurs, modules pour Go
 - Using “remote state” for working in teams
 
 
-**Module: Importation of foreign ressources**
+**Module: Importing foreign ressources**
 
-Importation of resources created outside Terraform:
 - terraform import
 - Import blocks
 
