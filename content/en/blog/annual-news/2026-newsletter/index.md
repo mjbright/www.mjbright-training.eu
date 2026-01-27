@@ -30,6 +30,10 @@ The theme for 2026 is all about elevating the training experience. We're not jus
 
 Our mission to deliver high-impact, rich training experiences for enterprises upskilling their teams in Cloud Native technologies continued with great success in 2025.
 
+New tools were developed for
+- interactive quizzes - especially useful for exam preparation trainings
+- and visualisations (Kubernetes).
+
 We built upon the foundations of previous years, expanding our curriculum and strengthening our partnerships.
 
 
