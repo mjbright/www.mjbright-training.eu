@@ -1,5 +1,10 @@
 
-# TODO
+# TODO 2025-Mar
+
+- TODO: Add "Comments/Avis" sections
+- TODO: Add Blog Posts
+
+# TODO 2025-Jan
 
 - TODO: DRONE/CAMERA photos/videos
   - Canva AI generated mangas/photos/videos of classrooms, datacenters, ...
