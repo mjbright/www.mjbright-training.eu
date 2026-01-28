@@ -24,7 +24,10 @@ The theme for 2026 is all about elevating the training experience. We're not jus
 - Training Catalog is online
   - https://www.mjbright-training.eu/docs/
 
-
+Specific acheivements we're proud of in 2025 are
+- Becoming an official HashiCorp Terraform Instructor
+- Tools development
+- Filling in for an instructor on a 4-days Kubernetes training with just 90 minutes notice !
 
 # 2025: Looking Back
 
