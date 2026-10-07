@@ -1,6 +1,25 @@
 ---
-title: "CV [Resume]"
+title: "Michael Bright — Kubernetes, Terraform & Ansible Technical Trainer"
+description: "Bilingual technical trainer and consultant specialising in Kubernetes, Terraform, Ansible, Docker and policy management."
+linkTitle: "CV"
+type: docs
+layout: docs
+weight: 10
 menu: {main: {weight: 80}}
+language: en
+keywords:
+  - Kubernetes trainer
+  - Kubernetes administration
+  - Kubernetes development
+  - Terraform training
+  - Ansible training
+  - Docker training
+  - policy management
+  - Open Policy Agent
+  - cloud native
+  - infrastructure as code
+aliases:
+  - /cv/
 ---
 
 {{< blocks/cover title="Curriculum Vitae" image_anchor="top" height="full" >}}
@@ -26,151 +45,122 @@ menu: {main: {weight: 80}}
 </div>
 
 <br/>
-<h1 class="name">
-<strong> Michael Bright </strong> <br>
-<span class="subname">
-<strong>Freelance Trainer, Consultant,<br/>Conference Speaker </strong>
-</span>
-</h1>
 
-<br/>
-<h2 class="supertitle"> MOTIVATIONS </h2>
-<p class="aboutme">
-Passionate about new<br>
-technologies & sharing this<br>
-</p>
+# Michael Bright
 
-<h2 class="uppertitle"> CONTACT </h2>
-<span class="location">
-<b>email:</b> &nbsp;&nbsp;&nbsp;&nbsp; <a class="cv" href="mailto:cv@mjbright.net">
-cv@mjbright.net </a> <br/>
-<b>web</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a class="cv" href="https://mjbright-training.eu">
-https://mjbright-training.eu </a> <br/>
-<b>linkedin</b>&nbsp; <a class="cv" href="https://www.linkedin.com/in/mjbright/" target="_blank">
-linkedin/in/mjbright </a><br/>
-<b>location:</b>
-Perpignan, France <br/>
-<b>mobile:</b>&nbsp;&nbsp;
-on demand
-</span>
+**Technical Trainer · Consultant · Conference Speaker**
 
-<h2 class="uppertitle"> ACTIVITIES </h2>
-<span class="hobbies">
-• Meetup Organiser<br/>
-• Continuous Learner <br/>
-• Running, cycling <br/>
-</span>
-</div>
+Perpignan, France · English and French · cv@mjbright.net · https://www.mjbright-training.eu · https://linkedin.com/in/mjbright · https://mjbright.github.io/Talks
 
-<div class="rightBlock">
+## Profile
 
-<h2 class="uppertitle"> SKILLS </h2>
-<span class="text">
-<b> • Languages:</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; English, French fluency, notions Spanish, Italian </br>
-<b> • Programming:</b> Python, C++/C, Java, .. many </br>
-<b> • Paradigms:</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Container Orch, Policy Mgmt, IaC, Ansible, ... </br>
-</span>
+Bilingual technical trainer and consultant with more than 35 years in software, cloud, telecom and infrastructure engineering. Since 2018, I have designed and delivered practical training, workshops and consulting engagements for teams working with Kubernetes, Terraform, Ansible, Docker and policy management.
 
-<h3 class="title"> Certifications </h3>
-<ul>
-<li> <b>Feb 24</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CNCF CKA: Kubernetes Administrator </li>
-<li> <b>Feb 24</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CNCF CKAD: Kubernetes Developer </li>
-<li> <b>Aug 23</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LinuxFoundation LFCS </li>
-<li> <b>Jul &nbsp;23</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TFA003 Terraform Associate </li>
-<li> <b>Dec 22</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; HCVAO-002 Vault Associate </li>
-<li> <b>Nov 21</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; AZ-104 Azure Administrator </li>
-<li> <b>Previous:</b>&nbsp;HPE Expert One SDN Apps, RedHat RHCE/RHCSA </li>
-</ul>
+My teaching style combines concise explanations, realistic labs, troubleshooting and direct feedback. I am comfortable working with individual engineers, platform teams, enterprise customers and training partners, in English or French.
 
-<h2 class="uppertitle"> WORK EXPERIENCE </h2>
-<h3 class="title">
-07/2018 - Present: Technical Trainer, Consultant<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;@mjbright Consulting 
-</h3>
-<ul>
-<li><b>Trainings/workshops:</b> </li>
-<ul>
-<li>Kubernetes, Policy Management, Docker </li>
-<li> Infra as Code: Terraform/AWS/Azure, Ansible </li>
-</ul>
-<li><b>Delivery:</b> direct or through partners </li>
-<li><b>Consulting:</b> Kubernetes, OPA Implementation </li>
-<li> <b>Conference Speaker:</b></b>
-<a href="https://mjbright.github.io/Talks" > https://mjbright.github.io/Talks </a>
-</li>
-</ul>
+## Core training areas
 
-<h3 class="title">
-09/2013 - 06/2018: Solution Architect<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;HPE Customer Innovation Center - Grenoble, France 
-</h3>
-<ul>
-<li>OpenShift PoC Management </li>
-<li>Cloud Native Customer presentations </li>
-<li>Container Orchestration Labs Delivery </li>
-<li>PoC Management with NFV partners, OpenStack hands-on </li>
-<li>Cloud Automation (AWS, Terraform, Heat, Ansible, Vagrant) </li>
-</ul>
+- **Kubernetes:** administration, development, troubleshooting, OpenShift and cloud-native platform practices
+- **Security and policy management:** Kubernetes policy concepts and implementation (OPA, Kyverno, VAP/MAP)
+- **Infrastructure as Code:** Terraform/OpenTofu, Crossplane for AWS and Azure automation
+- **Configuration management:** Ansible for environment provisioning
+- **Containers:** Docker and container orchestration fundamentals
+- **Adjacent platform skills:** Linux, OpenStack, Vault and platform engineering
 
-<h3 class="title"> 09/2005 - 09/2013: Cloud Engineer<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;HP CMS - Grenoble, France  </h3>
-<ul>
-<li>EU patent for Prepaid data charging [EP1720335A1] </li>
-<li>Auto-install AP4SaaS/IaaS product for Telecom service providers </li>
-<li>Auto-test IaaS cloud product </li>
-<li>Agile development - Data Analytics & Service Profile platforms </li>
-<li>Auto-VideoXML dialog creation for MWC demos. </li>
-</ul>
+## Teaching and consulting offer
 
-<h3 class="title"> 02/1998 - 09/2005: Solution Architect/Consultant<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;HP OCBU - Grenoble, France  </h3>
-<ul>
-<li>Pre-sales technical consulting on OpenCall products, PoCs </li>
-<li>Customer/Partner contact & ITSM delivery </li>
-</ul>
+- Instructor-led training, hands-on workshops and lab-based technical enablement
+- Tailored programmes for foundation, practitioner and advanced audiences
+- Delivery directly to customers or through training partners
+- Kubernetes implementation consulting
+- Customer presentations, technical demonstrations and conference talks
 
-<h3 class="title"> 05/1992 - 02/1998: Technical Lead/Software Engineer<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;HP OCBU - Grenoble, France  </h3>
-<ul>
-<li>Technical Lead on Telecom IN products, Software Engineer </li>
-<li>Software Engineer </li>
-</ul>
+## Certifications
 
-<h3 class="title"> 08/1985 - 05/1992: Member of Technical Staff<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;HP Research Labs - Bristol UK  </h3>
-<ul>
-<li>Network (X.25, SS7, LAN) modelling
-<ul><li>leading to PoC demos & products </li></ul>
-</li>
-<li>Parallel Processing , AI/Qualitative reasoning </li>
-</ul>
+- **CNCF CKA — Kubernetes Administrator**, 2020 - 2028
+- **CNCF CKAD — Kubernetes Application Developer**, 2019 - 2027
+- **CNCF KCNA — Kubernetes Cloud Native Associate**, 2022 - 2028
+- **CNCF KCSA — Kubernetes Cloud Security Associate**, 2026 - 2028
+- **HashiCorp Terraform Associate (TFA-004)**, 2020 - 2028
+- **HashiCorp Vault Associate (TFA-003)**, 2022 - 2027
+- **Linux Foundation LFCS — Linux Foundation Certified System Administrator**, 2023
+- **Microsoft AZ-104 — Azure Administrator**, November 2021
+- Previous: HPE ExpertONE SDN Apps; Red Hat RHCE/RHCSA
 
-<h3 class="title"> 09/1983 - 08/1984: Research Trainee<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;BBC Research Labs - UK  </h3>
-<ul>
-<li>NICAM digital audio subjective noise reduction.
-<ul>
-<li>Z-filter design, simulation, bit-slice &mu;-processor coding
-<li>user subjectivity tests</li>
-</ul>
-</li>
-</ul>
+## Professional experience
 
-<h2 class="uppertitle"> EDUCATION </h2>
-<h3 class="title"> 1980 - 1985: University Of Hull<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;B.Sc/Dip.Eng in Electronic Control & Robotics </h3>
-<ul>
-<li>Walter Firth prize for electronics </li> <!-- <br/> -->
-<li>1 year placement with BBC Research Labs </li>
-</ul>
+### Technical Trainer and Consultant — @mjbright Consulting
 
-</div>
+**2018 – Present · France / international delivery**
 
-</div>
+- Regular Linux Foundation and HashiCorp instructor
+- Design and deliver Kubernetes, policy management, Docker, Terraform and Ansible training.
+- Build practical labs and workshops around cloud-native operations, infrastructure as code and automation.
+- Provide Kubernetes and OPA implementation consulting.
+- Deliver training directly to customers or through specialist training partners.
+- Present at technical events and meetups; selected talks are listed at [mjbright.github.io/Talks](https://mjbright.github.io/Talks).
+
+### Solution Architect — HPE Customer Innovation Center
+
+**2013 – 2018 · Grenoble, France**
+
+- Led OpenShift proof-of-concept work and customer-facing cloud-native presentations.
+- Designed and delivered container orchestration labs.
+- Managed proof-of-concepts with NFV partners and OpenStack environments.
+- Automated cloud environments using AWS, Terraform, Heat, Ansible and Vagrant.
+
+### Cloud Engineer — HP CMS
+
+**2005 – 2013 · Grenoble, France**
+
+- Contributed to an EU patent for prepaid data charging (**EP1720335A1**).
+- Automated installation of an AP4SaaS/IaaS product for telecom service providers.
+- Built automated testing for an IaaS cloud product.
+- Worked in agile teams on data analytics and service-profile platforms.
+- Created an Auto-VideoXML demonstration for Mobile World Congress.
+
+### Solution Architect / Consultant — HP OCBU
+
+**1998 – 2005 · Grenoble, France**
+
+- Delivered pre-sales technical consulting and proof-of-concept work for OpenCall products.
+- Managed customer and partner relationships and supported ITSM delivery.
+
+### Technical Lead / Software Engineer — HP OCBU
+
+**1992 – 1998 · Grenoble, France**
+
+- Served as technical lead and software engineer for telecom intelligent-network products.
+
+### Member of Technical Staff — HP Research Labs
+
+**1985 – 1992 · Bristol, UK**
+
+- Researched X.25, SS7 and LAN network modelling, leading to proof-of-concept demonstrations and products.
+- Worked on parallel processing, artificial intelligence and qualitative reasoning.
+
+### Research Trainee — BBC Research Labs
+
+**1983 – 1984 · UK**
+
+- Researched subjective noise reduction for NICAM digital audio.
+- Designed Z-filters, simulated signal-processing approaches and coded a bit-slice microprocessor implementation.
+- Ran user subjectivity tests.
+
+## Education
+
+**B.Sc. / Dip.Eng. in Electronic Control & Robotics — University of Hull**  
+1980 – 1985 · Walter Firth Prize for Electronics · One-year placement at BBC Research Labs
+
+## Languages
+
+- English & French — fluent
+- Spanish & Italian — basic
+
+## Community
+
+- Meetup organiser
+- Continuous learner
+- Runner and cyclist
+
 {{% /blocks/section %}}
-
-{{% blocks/section color="dark" type="row" %}}
-<img src="cv.png" width="1118" height="1576" />
-{{% /blocks/section %}}
-
