@@ -2,7 +2,6 @@
 title: "Michael Bright — Formateur Kubernetes, Terraform et Ansible"
 description: "Formateur technique et consultant bilingue spécialisé en Kubernetes, Terraform, Ansible, Docker et gestion des politiques."
 linkTitle: "CV"
-type: docs
 layout: docs
 weight: 10
 menu: {main: {weight: 80}}

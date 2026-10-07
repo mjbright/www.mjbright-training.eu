@@ -2,7 +2,6 @@
 title: "Michael Bright — Kubernetes, Terraform & Ansible Technical Trainer"
 description: "Bilingual technical trainer and consultant specialising in Kubernetes, Terraform, Ansible, Docker and policy management."
 linkTitle: "CV"
-type: docs
 layout: docs
 weight: 10
 menu: {main: {weight: 80}}
