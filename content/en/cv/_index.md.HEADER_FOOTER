@@ -1,0 +1,32 @@
+
+# To add at top after FrontMatter:
+
+{{< blocks/cover title="Curriculum Vitae" image_anchor="top" height="full" >}}
+<a class="btn btn-lg btn-secondary me-3 mb-4" href="cv.pdf">
+    [English] CV Download <i class="fa-regular fa-newspaper"> </i>
+</a>
+{{< blocks/link-down color="info" >}}
+{{< /blocks/cover >}}
+
+{{% blocks/section color="primary" type="row" %}}
+<br/>
+<br/>
+<br/>
+<br/>
+
+<div class="container">
+
+<div class="leftBlock">
+<div class="picture">
+<div class="rectangle">
+<img src="images/Mike_4_Chili_Constitucion.cropped.png" width="200" />
+</div>
+</div>
+
+<br/>
+
+
+# To add at bottom of page:
+
+
+{{% /blocks/section %}}
